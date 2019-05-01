@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="yocto" fetch="git://git.yoctoproject.org/"/>
+  <remote name="github" fetch="https://github.com/"/>
+  <remote name="oe" fetch="git://git.openembedded.org/"/>
+
+  <default revision="refs/heads/sumo" remote="yocto"/>
+
+  <project path="poky" name="poky.git"/>
+  <project path="meta-raspberrypi" name="meta-raspberrypi.git"/>
+  <project path="meta-openembedded" name="meta-openembedded.git" remote="oe" revision="refs/heads/sumo"/>
+  <project path="build-pi" name="shrkamat/build-pi.git" remote="github" revision="refs/heads/sumo"/>
+</manifest>
