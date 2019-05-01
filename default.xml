@@ -4,10 +4,10 @@
   <remote name="github" fetch="https://github.com/"/>
   <remote name="oe" fetch="git://git.openembedded.org/"/>
 
-  <default revision="refs/heads/sumo" remote="yocto"/>
+  <default revision="refs/heads/thud" remote="yocto"/>
 
   <project path="poky" name="poky.git"/>
   <project path="meta-raspberrypi" name="meta-raspberrypi.git"/>
-  <project path="meta-openembedded" name="meta-openembedded.git" remote="oe" revision="refs/heads/sumo"/>
-  <project path="build-pi" name="shrkamat/build-pi.git" remote="github" revision="refs/heads/sumo"/>
+  <project path="meta-openembedded" name="meta-openembedded.git" remote="oe" revision="refs/heads/thud"/>
+  <project path="build-pi" name="shrkamat/build-pi.git" remote="github" revision="refs/heads/thud"/>
 </manifest>
